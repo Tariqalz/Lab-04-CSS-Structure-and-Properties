@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(33,33,33);
+  background: linear-gradient(331deg, rgba(33,33,33,1) 16%, rgba(110,110,110,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+form {
+    background: rgb(33,33,33);
+    background: linear-gradient(142deg, rgba(33,33,33,0.4) 16%, rgba(110,110,110,0.3) 100%);
+  padding: 2rem;
+  margin: 1em;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+label {
+  font-size: 15px;
+}
+input,
+textarea,
+select {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 0.8rem;
+  resize: none;
+}
+select {
+  width: 98%;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  width: 98%;
+}
